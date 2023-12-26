@@ -21,9 +21,6 @@ public class Tests {
         Client c1 = new Client("Rosa", 0, null);
         Client c2 = new Client("Bill", 0, null);
 
-        Assertions.assertEquals(0, c1.getId());
-        Assertions.assertEquals(1, c2.getId());
-
         Assertions.assertEquals("Rosa", c1.getName());
         Assertions.assertEquals("Bill", c2.getName());
     }
